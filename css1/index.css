@@ -743,8 +743,8 @@ body {
 
     .section1 img{
         margin-top: 20px;
-        width: 250px;
-        height: 150px;
+        width: 83%;
+        height: 170px;
         padding-left: 20px;
     }
 
@@ -764,8 +764,8 @@ body {
     .section2 img{
         margin-right: 0px;
         margin-left: -20px;
-        width: 200px;
-        height: 150px;
+        width: 77%;
+        height: 180px;
     }
     
     .section2 .heading{
