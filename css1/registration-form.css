@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .875rem;
+    background: #F7F8FA;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07) !important;
+}
+
+.nav-item{
+    margin-right: 50px;
+}
+
+.nav-item a{
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: coral !important;
+}
+
+.site-header__title{
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.main-content__body{
+    padding-top: 80px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+}
+
+
+.bank{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+
+.mod-of-pay{
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #000;
+}
+
+.for-further{
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.for-further .mail{
+    color: #4c4c4c;
+}
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-left: 30%;
+    display: inline-flex;
+    text-align: center;
+    background: #fff;
+}
+
+.footer a{
+    margin: 0;
+    padding: 5px 0px;
+    padding-right: 50px;
+    color: #000;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: coral;
+}
+
+
+
+
+/* Responsive Page Starts Here*/
+
+@media only screen and (max-width: 1255px) {
+    
+    .footer{
+        left: 0;
+    }
+
+    .footer a{
+        padding-right: 2.7em;
+        padding-left: 2.7em;
+    }
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+    .footer{
+        position: relative;
+        padding-left: 15%;
+        bottom: -50px;
+    }
+
+    .footer a{
+        padding-right: 2.7em;
+        padding-left: 2.7em;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .footer{
+        padding-left: 6%;
+    }
+
+    .footer a{
+        padding-right: 2.7em;
+        padding-left: 2.7em;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px){
+
+    .footer{
+        padding-left: 2%;
+    }
+
+    .footer a{
+        padding-right: 1.4em;
+        padding-left: 1.4em;
+    }
+    
+}
+
+
+/* Responsive Page Endss Here*/
