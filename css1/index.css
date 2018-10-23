@@ -800,7 +800,7 @@ body {
     }
 
     .section5:before {
-        width: 84%;
+        display: none;
     }
 
     .section5 hr{
@@ -808,9 +808,10 @@ body {
     }
 
     .main-fee{
-        max-width: 96%;
+        max-width: 100%;
         display: inline;
         margin-top: -20px;
+        margin-left: -10px;
     }
 
     .used-m{
@@ -856,7 +857,7 @@ body {
 
     .card-images{
         margin-top: 0px;
-        padding-left: 25.5%;
+        padding-left: 18.5%;
     }
 
     .sect-6{
@@ -890,6 +891,15 @@ body {
 
     .exhibition-side .inner{
         padding-left: 10px;
+        font-size: 1.2em;
+    }
+
+    .exhibition-side .inner-right{
+        font-size: 1.2em;
+    }
+    
+    .exhibition-side .inner-right p{
+        margin-bottom: 10px;
     }
 
     .footer{
