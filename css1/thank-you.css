@@ -24,7 +24,8 @@ body {
 }
 
 .nav-item a:hover{
-    color: coral !important;
+    color: #00adb5 !important;
+    border-bottom: 1px solid #f8b500;
 }
 
 #checkmark{

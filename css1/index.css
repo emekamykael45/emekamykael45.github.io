@@ -341,7 +341,15 @@ body {
     border-radius: 3px;
 }
 
-.used-m p.book-ticket a:hover, .used-n p.book-ticket a:hover{
+.used-n p.book-ticket a{
+    color: #f8b500;
+}
+
+.used-n-left p.book-ticket a{
+    color: #00adb5;
+}
+
+.used-n p.book-ticket a:hover{
     text-decoration: none;
     color: #4c4c4c;
     padding: 4px;
